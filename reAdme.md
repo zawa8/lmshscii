@@ -13,7 +13,9 @@ pnpm dev
 # or
 bun dev
 ```
-
+prisma db init steps :
+1. npx prisma migrate dev --name init
+2. npm i --save-dev prisma@latest ; npm i @prisma/client@latest
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
